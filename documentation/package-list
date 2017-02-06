@@ -1,0 +1,9 @@
+com.liferay.supermarketandroid
+com.liferay.supermarketandroid.model.api
+com.liferay.supermarketandroid.model.api.observable
+com.liferay.supermarketandroid.model.database
+com.liferay.supermarketandroid.model
+com.liferay.supermarketandroid.util
+com.liferay.supermarketandroid.view.toRemove.activity
+com.liferay.supermarketandroid.view.toRemove.adapter
+com.liferay.supermarketandroid.view.toRemove.fragment

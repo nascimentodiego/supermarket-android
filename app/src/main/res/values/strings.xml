@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Super Market Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_error">There is a problem. Try again !</string>
+
+
+    <!-- Login -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_btnLogin">Login</string>
+    <string name="login_txt_information">Don\'t you have an account?</string>
+    <string name="login_createAccount">Create</string>
+
+    <string name="login_name">Name</string>
+    <string name="login_you_have_an_account">Do you have an account?</string>
+    <string name="loading">Loading</string>
+    <string name="create_account_filled_fields">Fill in the fields correctly !</string>
+    <string name="item_title_logout">Logout</string>
+    <string name="item_title_filter">Filter</string>
+    <string name="product_price">$ 1d%</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="product_detail_lbl_rating">Rating:</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="cartitem_tx_delete">Delete</string>
+    <string name="msg_delete">Item was removed with success  !</string>
+    <string name="item_filter_all">All</string>
+    <string name="item_filter_bakery">Bakery</string>
+    <string name="item_filter_dairy">Dairy</string>
+    <string name="item_filter_fruit">Fruit</string>
+    <string name="item_filter_vegetable">Vegetable</string>
+    <string name="item_filter_meat">Meat</string>
+
+    <string name="currency_symbol">$</string>
+</resources>

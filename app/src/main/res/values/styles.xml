@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- MY Theme -->
+    <style name="tx_small_title">
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_12</item>
+    </style>
+
+    <style name="tx_small_normal">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_12</item>
+    </style>
+
+
+    <style name="tx_title">
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_18</item>
+    </style>
+
+    <style name="tx_title_primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_18</item>
+    </style>
+
+    <style name="tx_form">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_16</item>
+    </style>
+
+    <style name="edt_form">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorBgEdit</item>
+        <item name="android:textSize">@dimen/tx_size_14</item>
+        <item name="android:padding">@dimen/padding_10</item>
+    </style>
+
+    <style name="btn_form_primary">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_16</item>
+        <item name="android:padding">@dimen/padding_10</item>
+    </style>
+
+    <style name="btn_filter">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_size_12</item>
+    </style>
+
+</resources>

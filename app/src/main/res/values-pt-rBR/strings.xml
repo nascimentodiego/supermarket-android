@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_error">Um erro aconteceu. Tente novamente !</string>
+
+    <!-- Login -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+    <string name="login_btnLogin">Entrar</string>
+    <string name="login_txt_information">Você não tem conta?</string>
+    <string name="login_createAccount">Criar</string>
+    <string name="login_name">Nome</string>
+    <string name="login_you_have_an_account">Você tem conta?</string>
+    <string name="loading">Carregando...</string>
+    <string name="create_account_filled_fields">Preencha os campos corretamente !</string>
+    <string name="item_title_logout">Sair</string>
+    <string name="item_title_filter">Filtrar</string>
+    <string name="product_price">$ 1d%</string>
+    <string name="product_detail_lbl_rating">Recomendação:</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="cartitem_tx_delete">Remover</string>
+    <string name="msg_delete">Item removido com sucesso !</string>
+    <string name="item_filter_all">Todos</string>
+    <string name="item_filter_bakery">Padaria</string>
+    <string name="item_filter_dairy">Laticínios</string>
+    <string name="item_filter_fruit">Frutas</string>
+    <string name="item_filter_vegetable">Vegetais</string>
+    <string name="item_filter_meat">Carnes</string>
+</resources>

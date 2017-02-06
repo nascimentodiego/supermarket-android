@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4040</color>
+    <color name="colorPrimaryDark">#ca0505</color>
+    <color name="colorAccent">#082947</color>
+
+    <color name="colorContainer">#fff</color>
+    <color name="colorText">#9ca3a7</color>
+    <color name="colorBgEdit">#faffbd</color>
+    <color name="colorTextTitle">@color/colorAccent</color>
+
+    <!-- Google colors -->
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="google_red">#E44335</color>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/tx_email"
+            style="@style/tx_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_email" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            style="@style/edt_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_email"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/tx_password"
+            style="@style/tx_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_email"
+            android:layout_marginTop="5dp"
+            android:text="@string/login_password" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            style="@style/edt_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_password"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btn_form_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_password"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/login_btnLogin" />
+    </RelativeLayout>
+
+    <!-- Create Account -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical|right"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tx_information"
+            style="@style/tx_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_txt_information" />
+
+        <Button
+            android:id="@+id/btnCreateNewAccount"
+            style="@style/btn_form_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Criar" />
+    </LinearLayout>
+</RelativeLayout>
